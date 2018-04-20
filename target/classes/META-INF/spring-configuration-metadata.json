@@ -1,0 +1,33 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "springbootdemo.com.practice.test.entity.Book",
+      "name": "book",
+      "type": "springbootdemo.com.practice.test.entity.Book"
+    },
+    {
+      "sourceType": "springbootdemo.com.configuration.DataSourceConfig",
+      "name": "oracle",
+      "type": "springbootdemo.com.configuration.DataSourceConfig"
+    },
+    {
+      "sourceType": "springbootdemo.com.configuration.DataSourceConfig",
+      "name": "spring.datasource",
+      "sourceMethod": "public javax.sql.DataSource getDataSource() ",
+      "type": "javax.sql.DataSource"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "springbootdemo.com.practice.test.entity.Book",
+      "name": "book.name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "springbootdemo.com.practice.test.entity.Book",
+      "name": "book.price",
+      "type": "java.lang.Double"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+server:
+  port: 8088
+  servlet:
+    context-path: /test
+  
+spring:
+  mvc:
+    view:
+      prefix: /pages/
+      suffix: .jsp
+  #配置oracle
+  datasource:
+   jdbc-url: jdbc:oracle:thin:@//localhost:1521/xe
+   username: localDB
+   password: 123456
+   driver-class-name: oracle.jdbc.OracleDriver
+  #配置mongo
+  data:
+    mongodb:
+      database: test
+      host: localhost
+      port: 27017
+      
+  jpa:  
+   database-platform: 
+   hibernate:  
+      ddl-auto: update
+      
+   show-sql: true
+  jackson:
+    serialization:
+      indent-output: true
+      
+
+      
